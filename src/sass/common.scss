@@ -1,0 +1,80 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+.breed-select {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.cat-info {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.loader {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 80px;
+    border: 4px solid #f3f3f3;
+    border-top-color: #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+
+.error {
+    display: none;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.cat-info img {
+    max-width: 100%;
+    width: 365px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.cat-details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cat-details-column {
+    flex: 1;
+}
+
+.cat-details h2 {
+    margin-bottom: 5px;
+    color: #3498db;
+    font-size: 24px;
+}
+
+.cat-details p {
+    margin-bottom: 5px;
+}
+.cat-descr {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cat-list {
+    list-style-type: none;
+}
+.name {
+    font-weight: 700;
+}
+.description {
+    font-family: 400;
+    width: 700px;
+}
