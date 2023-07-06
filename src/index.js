@@ -86,3 +86,4 @@ function showError() {
           'Oops! Something went wrong! Try reloading the page!');
   };
 }
+browserslist.clearCaches()
